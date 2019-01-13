@@ -1,4 +1,5 @@
 // c[d][j]
+// top 40th percentile solution
 var twoSum = function(nums, target) {
   let mapArray = {}
   for (let i = 0; i < nums.length; i++){

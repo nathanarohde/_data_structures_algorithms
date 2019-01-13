@@ -15,6 +15,8 @@
 //   return longestString;
 // };
 
+// bottom 4%
+
 var lengthOfLongestSubstring = function(s){
   longestString = 0;
   currentString = { total: 0 };
