@@ -1,10 +1,24 @@
+// mapArray[complement][j]
 var twoSum = function(nums, target) {
-  // array must be unsorted;
-  // Sort converts to string and compare UTF codes.
+  let mapArray = {}
   for (let i = 0; i < nums.length; i++){
-    for (let j = 1; j < nums.length; j++){
-      if (i === j) continue;
-      if (nums[i]+nums[j] === target) return [i, j];
+    if (mapArray[nums[i]]){
+      mapArray[nums[i]].push(i);
+    } else {
+      mapArray[nums[i]] = [i];
     }
   }
+  for (let i = 0; i < nums.length; i++){
+    let complement = target - nums[i];
+    if (mapArray[complement]){
+      for(j = 0; j < mapArray[complement].length; j++ ){
+        if(mapArray[complement][j] !== i){
+          return [i, mapArray[complement][j]]
+        }
+      }
+    }
+  }
+  return false;
 };
+
+console.log(twoSum([2,7,7,11,15],9))
