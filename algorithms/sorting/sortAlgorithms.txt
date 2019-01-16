@@ -5,5 +5,6 @@ Selection O(n2) O(n2) O(n2) O(1)
 Best general algorithm in terms of time;
 MergeSort O(n log n) O(n log n) O(n log n) O(n)
 QuickSort O(n log n) O(n log n) O(n2) O(log n)
+RadixSort O(nk) O(nk) O(nk) O(n + k)
 
 https://www.toptal.com/developers/sorting-algorithms

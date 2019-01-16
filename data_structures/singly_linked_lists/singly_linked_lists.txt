@@ -1,0 +1,5 @@
+Do not have indexes.
+Connected via nodes with a next pointer
+Random access in not allowed.
+
+Good at insertion and deletion?
