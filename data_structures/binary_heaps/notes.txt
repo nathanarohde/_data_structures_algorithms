@@ -1,0 +1,12 @@
+Heaps are used for priority queues.
+
+Children
+Left - 2n + 1
+Right - 2n + 2
+
+Parent
+(n-1)/2
+
+Insertion - O(log N)
+Removal - O(log N)
+Search - O(N)
