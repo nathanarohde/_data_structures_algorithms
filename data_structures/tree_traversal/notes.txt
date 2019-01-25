@@ -1,0 +1,3 @@
+Depth First uses less space for evenly developed structure
+
+Breadth first works better for deep long trees
