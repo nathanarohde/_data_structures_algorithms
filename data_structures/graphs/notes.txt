@@ -1,0 +1,15 @@
+adjaceny list
+add vertex O(1)
+add edge O(1)
+remove vertex O(|V| + |E|)
+remove edge O(|E|)
+query O(|V| + |E|)
+storage O(|V| + |E|)
+
+adjacency matrix
+add vertex O(|v^2|)
+add edge O(1)
+remove vertex O(|V^2|)
+remove edge O(1)
+query O(1)
+storage O(|V^2|)
