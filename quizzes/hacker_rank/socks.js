@@ -1,4 +1,5 @@
 // finds total pairs in array
+// O(n)
 function sockMerchant(n, ar) {
     let socks = {};
     let pairs = 0;
