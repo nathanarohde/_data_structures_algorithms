@@ -1,4 +1,4 @@
-// C# does not by default handle numbers in excess of 32-bit
+// C# does not by default handle numbers in excess of 32-bit and requires the use of system.Numerics and BigInteger
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Collections;
