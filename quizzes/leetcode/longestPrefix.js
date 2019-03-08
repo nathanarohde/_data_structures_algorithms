@@ -9,12 +9,11 @@ var longestCommonPrefix = function(strs) {
     //if match proceed to next to string
     //else iterate backwards
     for (let i=1; i < strs.length; i++){
-        if (strs[i] === "") return "";
+        if (strs[i] === "" || preFix === "") return "";
         if (preFix.length > strs[i].length) preFix = preFix.substring(0, strs[i].length);
         while (preFix !== strs[i].substring(0, preFix.length) && preFix.length > 0){
             preFix = preFix.substring(0, preFix.length - 1);
         }
-        if (preFix === '') return preFix;
     }
     return preFix;
 };
