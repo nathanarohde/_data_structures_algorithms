@@ -3,6 +3,7 @@
 //76ms vs 52 ms bottom 25%
 //35.3mb vs 34.8 bottom 20%
 //middle redundancy don't need the starting divide and conquer.
+//first attempt, no performance difference from fastest code due to uncontrolled variables?
 
 // var searchRange = function(nums, target) {
 //     let min = 0;
@@ -73,7 +74,7 @@
 //
 // };
 
-// Refactored and easier to read but not performance difference?
+// Refactored and easier to read but no performance difference?
 var searchRange = function(nums, target) {
     return [
         binarySearch(nums, target, true),
