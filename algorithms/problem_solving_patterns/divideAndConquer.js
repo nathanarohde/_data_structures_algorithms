@@ -11,7 +11,7 @@ function search(array, val){
     if (array[middle] < val) {
       min = middle + 1;
     }
-    else if (arry[middle] > val) {
+    else if (array[middle] > val) {
       max = middle - 1;
     }
     else {
